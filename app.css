@@ -1,0 +1,89 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    margin-left: 36px;
+}
+
+h2{
+    text-align: center;
+    font-weight: lighter;
+}
+
+h4{
+    text-align: center;
+    font-size: 26px;
+    font-weight: lighter;
+}
+
+main{
+    background-color: rgb(241, 241, 241);
+    border: 1px dashed lightgray;
+    margin: 20px;
+    min-width: 600px;
+    max-width: 800px;
+}
+.enigmaBlock {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+span{
+    border: 1px solid lightblue;
+    border-radius: 6px;
+    color: gray;
+    margin: 0 20px 0 20px;
+    background-color: white;
+    width: 260px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 6px;
+    text-align: center;
+}
+
+textarea{
+    border: 1px solid lightblue;
+    border-radius: 6px;
+    color: gray;
+    margin: 0 20px 0 20px;
+    padding: 6px;
+    text-align: center;
+}
+
+button{
+    width: 126px;
+    padding: 10px;
+    margin: 16px 12px;
+    border: 1px solid lightblue;
+    background-color: white;
+    border-radius: 6px;
+}
+
+button:active {
+    position: relative;
+    top: 1px;
+}
+
+input {
+    width: 60px;
+    height: 30px;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    margin: 6px;
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+    
+}
+.buttons{
+    text-align: center;
+    width: 200px;
+}
+
+.buttonNumber{
+    display: flex;
+    justify-content: center;
+}
